@@ -2,12 +2,10 @@
 using System.Configuration;
 using IdSrvV3Sample.Common;
 
-namespace IdSrvV3Sample.ResourceOwnerSample
+namespace IdSrvV3Sample.ResourceOwnerPasswordCredentialsGrantSample
 {
   class Program
   {
-    private static string _isBaseAddress = ConfigurationManager.AppSettings["Is:Url"];
-    
     static void Main(string[] args)
     {
       var client = new ApiClient();

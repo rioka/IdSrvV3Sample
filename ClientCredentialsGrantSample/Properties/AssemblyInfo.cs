@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ClientCredentialSample")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("ClientCredentialsGrantSample")]
+[assembly: AssemblyDescription("Sample client for 'Client Credentials Grant' flow")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ClientCredentialSample")]
-[assembly: AssemblyCopyright("Copyright ©  2016")]
+[assembly: AssemblyCompany("Easysoft S.r.l.")]
+[assembly: AssemblyProduct("ClientCredentialsGrantSample")]
+[assembly: AssemblyCopyright("Copyright © Easysoft 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

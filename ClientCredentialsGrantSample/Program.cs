@@ -1,7 +1,7 @@
 ﻿using System;
 using IdSrvV3Sample.Common;
 
-namespace IdSrvV3Sample.ClientCredentialSample
+namespace IdSrvV3Sample.ClientCredentialsGrantSample
 {
   class Program
   {
