@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App.csproj", "{CC1D37C2-3BCB-4362-9ECB-157651E58F5D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientCredentialSample", "ClientCredentialSample\ClientCredentialSample.csproj", "{24F2CFBB-CC1D-4E71-B860-9EABE4953EE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{CC1D37C2-3BCB-4362-9ECB-157651E58F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC1D37C2-3BCB-4362-9ECB-157651E58F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC1D37C2-3BCB-4362-9ECB-157651E58F5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F2CFBB-CC1D-4E71-B860-9EABE4953EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F2CFBB-CC1D-4E71-B860-9EABE4953EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F2CFBB-CC1D-4E71-B860-9EABE4953EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F2CFBB-CC1D-4E71-B860-9EABE4953EE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
