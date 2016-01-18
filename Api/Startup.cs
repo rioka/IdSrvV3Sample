@@ -1,4 +1,4 @@
-﻿using System.Text;
+﻿using System.Configuration;
 using System.Web.Http;
 using IdentityServer3.AccessTokenValidation;
 using IdSrvV3Sample.Api;
@@ -15,7 +15,7 @@ namespace IdSrvV3Sample.Api
     {
       // token validation
       app.UseIdentityServerBearerTokenAuthentication(new IdentityServerBearerTokenAuthenticationOptions() {
-        Authority = "https://localhost:44311/",
+        Authority = ConfigurationManager.AppSettings["Is:Url"],
         RequiredScopes = new[] { "write"}
       });
 
