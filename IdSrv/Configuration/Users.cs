@@ -4,7 +4,7 @@ using System.Security.Claims;
 using IdentityServer3.Core;
 using IdentityServer3.Core.Services.InMemory;
 
-namespace IdSrv.Configuration
+namespace IdSrvV3Sample.IdSrv.Configuration
 {
   public class Users
   {

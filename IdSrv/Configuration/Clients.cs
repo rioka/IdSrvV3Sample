@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using IdentityServer3.Core.Models;
 
-namespace IdSrv.Configuration
+namespace IdSrvV3Sample.IdSrv.Configuration
 {
   public class Clients
   {

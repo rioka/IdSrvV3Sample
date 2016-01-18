@@ -2,7 +2,7 @@
 using System.Reflection;
 using System.Security.Cryptography.X509Certificates;
 
-namespace IdSrv.Configuration
+namespace IdSrvV3Sample.IdSrv.Configuration
 {
   public class Certificate
   {

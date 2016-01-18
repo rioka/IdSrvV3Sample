@@ -1,11 +1,12 @@
 ﻿using IdentityServer3.Core.Configuration;
-using IdSrv.Configuration;
+using IdSrvV3Sample.IdSrv;
+using IdSrvV3Sample.IdSrv.Configuration;
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(IdSrv.Startup))]
+[assembly: OwinStartup(typeof(Startup))]
 
-namespace IdSrv
+namespace IdSrvV3Sample.IdSrv
 {
   public class Startup
   {
